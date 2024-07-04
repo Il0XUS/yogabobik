@@ -1,0 +1,81 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+    width:1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.title {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px 5px 5px red;
+}
+.sub-title {
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    font-style: italic;
+    margin-top: 20px;
+}
+.nav-list {
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+   column-gap: 20px;
+  margin-top: 10px;
+}
+.nav-button {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500 ;
+   
+}
+.nav-button:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: cornflowerblue;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+.card-item {
+    flex-basis: calc((100% - 20px) /2) ;
+
+}
+.card-article {
+    display: flex;
+
+}
+.card-image {
+    width: 50%;
+    background-image: url(/images/therealbibizyan-min.jpeg);
+}
+.card-item-content {
+    width: 50;
+}
