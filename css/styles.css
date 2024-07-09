@@ -74,7 +74,7 @@ a {
 }
 .card-image {
     width: 50%;
-    background-image: url(/images/therealbibizyan-min.jpeg);
+    background-image: url("../images/therealbibizyan-min.jpeg") ;
 }
 .card-item-content {
     width: 50;
